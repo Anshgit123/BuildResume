@@ -8,7 +8,6 @@ import { Toaster } from "react-hot-toast";
 
 
 
-
 const AppRoutes = () => {
   const { loading } = useContext(UserContext);
 
