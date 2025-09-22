@@ -3,6 +3,7 @@ import { Input, ProfilePhotoSelector } from '../components/Inputs.jsx';
 import { useNavigate } from 'react-router-dom'
 import axiosInstance from '../utils/axiosInstance'
 import { API_PATHS } from '../utils/apiPaths'
+
 const CreateResumeForm = () => {
 
     const [title,setTitle] =useState("")
